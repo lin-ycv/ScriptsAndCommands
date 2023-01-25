@@ -15,4 +15,4 @@
 | Commit | `git commit -m "Message"` |
 | Undo commit | `git reset HEAD~1` |
 | Push | `git push`|
-| Push to new branch | `git push origin new-branch` |
+| Push to new branch | `git push -u origin new-branch` | `-u` to set branch tracking local<-->remote |
