@@ -2,7 +2,7 @@
 | Function | Command | Notes |
 |:---:|---|---|
 | Create git | `git init` |
-| Cloning a repo | `git clone URL folder-name-optional` | `--depth 1` to clone only lastest commit (saves space)
+| Cloning a repo | `git clone URL folder-name-optional` | `--depth 1` to clone only lastest commit (saves space)<br> `-b <branch name>` to clone a specific branch
 | Rename branch | `git branch -m old-name new-name`| `-M` to force rename
 | New branch (clone) | `git switch -c branch-name`  | `-C` to force creation
 | New branch (empty) | `git switch --orphan branch-name` |
